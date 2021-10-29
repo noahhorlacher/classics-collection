@@ -1,0 +1,129 @@
+/* from https://codepen.io/andymerskin/pen/XNMWvQ */
+game {
+	margin: 20px;
+	transform: perspective(1000px);
+	transform-style: preserve-3d;
+	cursor: pointer;
+}
+
+game.hidden {
+	display: none;
+}
+
+game:hover info {
+	transition: var(--time-transition) cubic-bezier(0.23, 1, 0.32, 1);
+}
+game:hover info:after {
+	transition: var(--time-transition) cubic-bezier(0.23, 1, 0.32, 1);
+	opacity: 1;
+	transform: translateY(0);
+}
+game:hover background {
+	transition: var(--time-transition) cubic-bezier(0.23, 1, 0.32, 1),
+		opacity var(--time-transition) cubic-bezier(0.23, 1, 0.32, 1);
+	opacity: 0.8;
+}
+game:hover container {
+	transition: transform var(--time-transition) cubic-bezier(0.23, 1, 0.32, 1),
+		box-shadow var(--time-transition) cubic-bezier(0.23, 1, 0.32, 1);
+	box-shadow: var(--shadow-card-2);
+}
+
+game container {
+	display: block;
+	position: relative;
+	flex: 0 0 240px;
+	width: 280px;
+	height: 220px;
+	background-color: #333;
+	overflow: hidden;
+	border-radius: var(--radius);
+	box-shadow: var(--shadow-card-1);
+	transition: var(--time-transition) cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+game background {
+	opacity: 0.5;
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	transition: var(--time-transition) cubic-bezier(0.445, 0.05, 0.55, 0.95),
+		opacity var(--time-transition) cubic-bezier(0.445, 0.05, 0.55, 0.95);
+	pointer-events: none;
+}
+
+game info {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 20px;
+	position: absolute;
+	top: 0;
+	height: 100%;
+	color: #fff;
+}
+
+game info * {
+	position: relative;
+	z-index: 1;
+}
+game info:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(
+		to bottom,
+		transparent 0%,
+		rgba(0, 0, 0, 0.6) 100%
+	);
+	background-blend-mode: overlay;
+	opacity: 0;
+	transform: translateY(100%);
+	transition: var(--time-transition) cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+game info h2 {
+	width: 100%;
+	font-family: 'Playfair Display';
+	font-size: 2em;
+	font-weight: 700;
+	text-shadow: rgba(0, 0, 0, 0.5) 0 10px 10px;
+	word-break: break-word;
+	hyphens: auto;
+	margin: auto;
+}
+
+game info logo {
+	box-sizing: content-box;
+	display: block;
+	position: absolute;
+	font-size: 1.5em;
+	bottom: 0.5em;
+	right: 0.5em;
+	height: 1em;
+	width: 1em;
+	padding: 0.25em;
+	background-color: rgba(0, 0, 0, 0.5);
+	background-image: url('../svg/github_logo.svg');
+	background-repeat: no-repeat;
+	background-size: 70%;
+	background-position: center;
+	opacity: 0.6;
+	border-radius: 100%;
+	transition: background-color var(--time-transition),
+		opacity var(--time-transition);
+}
+
+game info logo:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+	opacity: 1;
+}

@@ -1,0 +1,38 @@
+{
+    "memory": {
+        "title": "Memory",
+        "url": "https://noahhorlacher.github.io/memory/",
+        "repo": "https://github.com/noahhorlacher/memory",
+        "thumbnail": "thumbnails/memory.svg"
+    },
+    "numberbubbles-idle": {
+        "title": "Number Bubbles Idle",
+        "url": "https://noahhorlacher.github.io/numberbubbles-idle",
+        "repo": "https://github.com/noahhorlacher/numberbubbles-idle",
+        "thumbnail": "thumbnails/numberbubbles-idle.svg"
+    },
+    "tictactoe": {
+        "title": "Tic Tac Toe",
+        "url": "https://noahhorlacher.github.io/tictactoe/",
+        "repo": "https://github.com/noahhorlacher/tictactoe",
+        "thumbnail": "thumbnails/tictactoe.svg"
+    },
+    "rock-paper-scissors-ultimate": {
+        "title": "Rock Paper Scissors Ultimate",
+        "url": "https://noahhorlacher.github.io/rock-paper-scissors-ultimate",
+        "repo": "https://github.com/noahhorlacher/rock-paper-scissors-ultimate",
+        "thumbnail": "thumbnails/rock-paper-scissors-ultimate.svg"
+    },
+    "minesweeper": {
+        "title": "Minesweeper",
+        "url": "https://noahhorlacher.github.io/minesweeper",
+        "repo": "https://github.com/noahhorlacher/minesweeper",
+        "thumbnail": "thumbnails/minesweeper.svg"
+    },
+    "nonogram": {
+        "title": "Nonogram",
+        "url": "https://noahhorlacher.github.io/nonogram",
+        "repo": "https://github.com/noahhorlacher/nonogram",
+        "thumbnail": "thumbnails/nonogram.svg"
+    }
+}
