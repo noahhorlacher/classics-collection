@@ -100,6 +100,7 @@ game info h2 {
 	word-break: break-word;
 	hyphens: auto;
 	margin: auto;
+	user-select: none;
 }
 
 game info logo {
