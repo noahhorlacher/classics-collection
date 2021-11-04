@@ -5,6 +5,12 @@
         "repo": "https://github.com/noahhorlacher/memory",
         "thumbnail": "thumbnails/memory.svg"
     },
+    "numberbubbles-classic": {
+        "title": "Number Bubbles Classic",
+        "url": "https://staufer820.github.io/NumberBubbles",
+        "repo": "https://github.com/staufer820/NumberBubbles",
+        "thumbnail": "thumbnails/numberbubbles-classic.svg"
+    },
     "numberbubbles-idle": {
         "title": "Number Bubbles Idle",
         "url": "https://noahhorlacher.github.io/numberbubbles-idle",
