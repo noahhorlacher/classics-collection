@@ -1,4 +1,10 @@
 {
+    "wordle": {
+        "title": "Wordle",
+        "url": "https://noahhorlacher.github.io/wortle/",
+        "repo": "https://github.com/noahhorlacher/wortle",
+        "thumbnail": "thumbnails/wortle.svg"
+    },
     "memory": {
         "title": "Memory",
         "url": "https://noahhorlacher.github.io/memory/",
