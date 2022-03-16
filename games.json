@@ -1,4 +1,10 @@
 {
+    "hangman": {
+        "title": "Hangman",
+        "url": "https://noahhorlacher.github.io/hangman/",
+        "repo": "https://github.com/noahhorlacher/hangman",
+        "thumbnail": "thumbnails/hangman.svg"
+    },
     "wordle": {
         "title": "Wortle",
         "url": "https://noahhorlacher.github.io/wortle/",
