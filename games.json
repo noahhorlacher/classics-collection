@@ -1,4 +1,10 @@
 {
+    "klondike-solitaire": {
+        "title": "Klondike Solitaire",
+        "url": "https://noahhorlacher.github.io/klondike-solitaire/",
+        "repo": "https://github.com/noahhorlacher/klondike-solitaire",
+        "thumbnail": "thumbnails/klondike-solitaire.svg"
+    },
     "hangman": {
         "title": "Hangman",
         "url": "https://noahhorlacher.github.io/hangman/",
