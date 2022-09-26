@@ -1,4 +1,10 @@
 {
+    "math-squirt": {
+        "title": "Math.Squirt",
+        "url": "https://noahhorlacher.github.io/Math.Squirt/",
+        "repo": "https://github.com/noahhorlacher/Math.Squirt",
+        "thumbnail": "thumbnails/math-squirt.svg"
+    },
     "klondike-solitaire": {
         "title": "Klondike Solitaire",
         "url": "https://noahhorlacher.github.io/klondike-solitaire/",
